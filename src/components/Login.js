@@ -11,7 +11,12 @@ const Login = () => {
         <div
           className="login-button facebook"
           onClick={() =>
-            auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())
+            auth
+              .signInWithPopup(new firebase.auth.FacebookAuthProvider())
+              // .then((res) => console.log(res.credential.accessToken))
+              .then((res) =>
+                sessionStorage.setItem("Token", res.credential.accessToken)
+              )
           }
         >
           <FacebookOutlined /> Sign In with Facebook
