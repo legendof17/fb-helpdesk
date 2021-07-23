@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fb-helpdesk/static/css/main.8db9f330.chunk.css",
+    "main.js": "/fb-helpdesk/static/js/main.19623cb3.chunk.js",
+    "main.js.map": "/fb-helpdesk/static/js/main.19623cb3.chunk.js.map",
+    "runtime-main.js": "/fb-helpdesk/static/js/runtime-main.8d63cafc.js",
+    "runtime-main.js.map": "/fb-helpdesk/static/js/runtime-main.8d63cafc.js.map",
+    "static/js/2.3e7b29a4.chunk.js": "/fb-helpdesk/static/js/2.3e7b29a4.chunk.js",
+    "static/js/2.3e7b29a4.chunk.js.map": "/fb-helpdesk/static/js/2.3e7b29a4.chunk.js.map",
+    "static/js/3.dab014df.chunk.js": "/fb-helpdesk/static/js/3.dab014df.chunk.js",
+    "static/js/3.dab014df.chunk.js.map": "/fb-helpdesk/static/js/3.dab014df.chunk.js.map",
+    "index.html": "/fb-helpdesk/index.html",
+    "static/css/main.8db9f330.chunk.css.map": "/fb-helpdesk/static/css/main.8db9f330.chunk.css.map",
+    "static/js/2.3e7b29a4.chunk.js.LICENSE.txt": "/fb-helpdesk/static/js/2.3e7b29a4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d63cafc.js",
+    "static/js/2.3e7b29a4.chunk.js",
+    "static/css/main.8db9f330.chunk.css",
+    "static/js/main.19623cb3.chunk.js"
+  ]
+}
