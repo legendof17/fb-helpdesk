@@ -7,6 +7,7 @@ import { FaInbox as Inbox } from "react-icons/fa";
 import { IoMdPeople as Friends } from "react-icons/io";
 import Graphw from "../static files/graphw.png";
 import Graphb from "../static files/graphb.png";
+import Chatscontainer from "./Chatscontainer";
 
 const Chats = () => {
   const history = useHistory();
@@ -46,7 +47,7 @@ const Chats = () => {
             onMouseLeave={() => {
               setmessagehoverColor("white");
             }}
-            style={{ height: "20px", padding: "18px" }}
+            style={{ width: "30px", height: "22px", padding: "18px" }}
           />
         </div>
         <div className="logo-tab inbox-tab">
@@ -58,7 +59,7 @@ const Chats = () => {
             onMouseLeave={() => {
               setfriendshoverColor("white");
             }}
-            style={{ width: "46px", padding: "12px" }}
+            style={{ width: "40px", height: "36px", padding: "12px" }}
           />
         </div>
         <div className="inbox-tab graph-tab">
@@ -71,6 +72,7 @@ const Chats = () => {
               setgraphImage(Graphw);
             }}
             alt="Analytics"
+            style={{ height: "28px" }}
           />
         </div>
         <div onClick={handlelogout} className="logout-tab">
@@ -79,10 +81,10 @@ const Chats = () => {
             src={userPicture}
             alt="ProfilePicture"
           />
-          <span class="logged-in">●</span>
+          <span className="logged-in">●</span>
         </div>
       </div>
-      {/* <h1>Helpdesk</h1> */}
+      <Chatscontainer />
     </div>
   );
 };
